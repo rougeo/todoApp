@@ -3,7 +3,6 @@ import React from 'react'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
 import {makeStyles} from "@material-ui/core/styles";
 
 import devscom from '../ressources/logo.svg'
@@ -26,9 +25,7 @@ const Menu = (props) => {
     const classes = useStyles()
 
     return (
-        <Container style={{
-            border: '1px solid red'
-        }} disableGutters>
+        <Container disableGutters>
             <AppBar elevation={1} color={'default'} position="static">
                 <Toolbar>
                     <Grid container alignItems={'space-between'}>

@@ -13,7 +13,7 @@ const Elements = (props) => {
 
     return (
         <Container style={{
-            border: '1px solid red'
+
         }}>
             {
                 props.elements.map((el, idx) => {

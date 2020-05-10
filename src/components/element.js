@@ -2,15 +2,13 @@ import React from 'react'
 import Grid from "@material-ui/core/es/Grid/Grid";
 import Typography from "@material-ui/core/es/Typography/Typography";
 import Card from "@material-ui/core/es/Card/Card";
-import Divider from "@material-ui/core/es/Divider/Divider";
 
 const styles = {
     border: {
     },
     card: {
         padding: '10px',
-        margin: '10px',
-        border: '2px solid blue'
+        margin: '10px'
     },
     name: {
         fontWeight: 'bold'

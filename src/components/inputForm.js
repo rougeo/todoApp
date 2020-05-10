@@ -10,7 +10,6 @@ const styles = {
     },
     form: {
         margin: '20px 0',
-        border: '1px solid red'
     },
     input: {
         margin: '0 20px'
