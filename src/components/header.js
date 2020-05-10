@@ -26,7 +26,9 @@ const Menu = (props) => {
     const classes = useStyles()
 
     return (
-        <Container disableGutters>
+        <Container style={{
+            border: '1px solid red'
+        }} disableGutters>
             <AppBar elevation={1} color={'default'} position="static">
                 <Toolbar>
                     <Grid container alignItems={'space-between'}>

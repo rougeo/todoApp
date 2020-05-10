@@ -12,7 +12,9 @@ const styles = {
 const Elements = (props) => {
 
     return (
-        <Container>
+        <Container style={{
+            border: '1px solid red'
+        }}>
             {
                 props.elements.map((el, idx) => {
                     return <Element key={idx} element={el}/>

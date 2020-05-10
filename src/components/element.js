@@ -10,6 +10,7 @@ const styles = {
     card: {
         padding: '10px',
         margin: '10px',
+        border: '2px solid blue'
     },
     name: {
         fontWeight: 'bold'
